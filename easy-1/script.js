@@ -16,19 +16,19 @@
 
 
 // optimised version of above code
-    var calculateButton = document.querySelector('#calculate-button')
-    var output = document.querySelector('#output-area')
+    // var calculateButton = document.querySelector('#calculate-button')
+    // var output = document.querySelector('#output-area')
 
-    function calculateFunction () {
-        var sum = 0;
-        var calculatedOutput = [5, 13, 7, 21, 48];
-        for (let i=0; i<calculatedOutput.length; i++) {
-            sum += calculatedOutput[i]
-        }
-        output.innerText = "Result is : " + sum;
-    }
+    // function calculateFunction () {
+    //     var sum = 0;
+    //     var calculatedOutput = [5, 13, 7, 21, 48];
+    //     for (let i=0; i<calculatedOutput.length; i++) {
+    //         sum += calculatedOutput[i]
+    //     }
+    //     output.innerText = "Result is : " + sum;
+    // }
 
-    calculateButton.addEventListener("click", calculateFunction)
+    // calculateButton.addEventListener("click", calculateFunction)
     // base logic : (+=	/ x+=y / x=x+y)
 // optimised version of above code
 
