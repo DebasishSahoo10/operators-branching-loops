@@ -8,7 +8,7 @@ var numberInput = document.querySelector('#input-number')
 function printTable () {
     var number = numberInput.value;
     let n = 0;
-    for (let i=1; i<10; i++) {
+    for (let i=0; i<10; i++) {
         console.log(`${number} * ${i} = ${number * i}`)
     }
 }
